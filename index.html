@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>NaviWeb — Cotizador Web</title><link rel="stylesheet" href="styles.css"></head><body>
+<nav>
+<div class="logo" id="brand">NaviWeb</div>
+<button data-v="calc"><svg viewBox="0 0 24 24"><path d="M4 4h16v16H4zM8 8h8M8 12h3M8 16h3"/></svg><span>Cotizador</span></button>
+<button data-v="list"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg><span>Proyectos</span></button>
+<button data-v="quote"><svg viewBox="0 0 24 24"><path d="M6 3h9l4 4v14H6zM9 12h7M9 16h7"/></svg><span>Presupuesto</span></button>
+<button data-v="cfg"><svg viewBox="0 0 24 24"><path d="M12 8a4 4 0 100 8 4 4 0 000-8zM12 2v3M12 19v3M2 12h3M19 12h3"/></svg><span>Ajustes</span></button>
+</nav>
+<main>
+<section id="calc" class="view"><div class="grid"><div id="formcol"></div><aside id="res" class="card sticky"></aside></div></section>
+<section id="list" class="view"></section>
+<section id="quote" class="view"></section>
+<section id="cfg" class="view"></section>
+</main><div id="toast"></div>
+<script src="script.js"></script></body></html>
